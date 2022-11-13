@@ -1,0 +1,105 @@
+@media (max-width:1024px)  {
+    .hero_sec::after
+    {
+        display: none;
+    }
+    .the_problem::after
+    {
+        top: 50%;   
+        right: 12px;
+    }
+    .download_now_content
+    {
+        padding: 25px;
+    }
+}
+@media (max-width:992px)  {
+
+    .the_problem::after
+    {
+        display: none;
+    }
+    .partners .parnters_inner
+    {
+        display: block;
+    }
+    .partners .parnters_inner img {
+        opacity: 1;
+        filter: grayscale(0);
+        transition: 0.3s ease-in;
+        margin: 9px 17px;
+    }
+    .partners
+    {
+        padding: 20px;
+    }
+    .the_problem
+    {
+        padding-bottom: 0px;
+    }
+    .download_now_content
+    {
+        margin-top: 35px;
+    }
+    .rt-lft_sec img
+    {
+        width: 250px;
+        margin-bottom: 25px;
+    }
+    .inspace_tb100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .rt-lft_sec 
+    {
+        text-align: center;
+    }
+    footer
+    {
+        margin-top: 50px;
+    }
+}
+@media (max-width:375px){
+
+    .hero_sec h1
+    {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    #navbarMain img
+    {
+        width: 70px;
+    }
+    #navbarMain.fixed img {
+        width: 65px;
+    }
+    .hero_btn_grp
+    {
+        display: flex;
+    }
+    .btn_animation
+    {
+        width: 165px;
+    }
+    .download_section .btn_animation
+    {
+        width: 135px;
+    }
+    .site_title h2
+    {
+        font-size: 30px;
+    line-height: 37px;
+    }
+    .btn-primary
+    {
+        width: 100% !important;
+    }
+    .cta_section
+    {
+        padding: 24px;
+    }
+    footer {
+        background: #601A68;
+        padding: 40px 20px;
+    }
+}
